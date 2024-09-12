@@ -23,9 +23,18 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Universidad Tecnológica Nacional, Argentina</li>
-      </ul>
+      <div className="text-center">
+        <ul className="list-disc pl-2 mb-4">
+          <li>Universidad Tecnológica Nacional, Argentina 🇦🇷</li>
+        </ul>
+        <Image
+          src="./images/utn.png"
+          alt="Education Image"
+          width={500}
+          height={300}
+          className="mx-auto"
+        />
+      </div>
     ),
   },
   {
@@ -33,7 +42,6 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Soon...</li>
         <li>Soon...</li>
       </ul>
     ),

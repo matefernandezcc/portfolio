@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "SaldoSube for Alexa",
-    description: "Know the balance of your public tranport card through your Amazon Alexa device.",
+    description: "Know the balance of your public transport card through your Amazon Alexa device.",
     image: "./images/projects/2.png",
     tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/SaldoSube-for-Alexa",
