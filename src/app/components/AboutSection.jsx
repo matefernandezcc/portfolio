@@ -25,7 +25,7 @@ const TAB_DATA = [
     content: (
       <div className="text-center">
         <ul className="none">
-          <li>Universidad Tecnológica Nacional, Argentina 🇦🇷</li>
+          <li></li>
         </ul>
         <Image
           src="./images/utn.png"
