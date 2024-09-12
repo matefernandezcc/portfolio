@@ -12,6 +12,7 @@ const projectsData = [
     image: "./images/projects/1.png",
     tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/RealTime-GPS-Colectivos",
+    previewUrl: "/",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const projectsData = [
     image: "./images/projects/2.png",
     tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/SaldoSube-for-Alexa",
+    previewUrl: "/",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const projectsData = [
     image: "./images/projects/3.png",
     tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/CuandoSubo-for-Alexa",
+    previewUrl: "/",
   },
   {
     id: 4,
@@ -36,6 +39,7 @@ const projectsData = [
     image: "./images/projects/4.png",
     tag: ["All", "C and C++"],
     gitUrl: "https://github.com/matefernandezcc/congruence-Calculator",
+    previewUrl: "/",
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ const projectsData = [
     image: "./images/projects/5.png",
     tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/Convolution",
+    previewUrl: "/",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const projectsData = [
     image: "./images/projects/6.png",
     tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/AFIP_CAE",
+    previewUrl: "/",
   },
 ];
 
