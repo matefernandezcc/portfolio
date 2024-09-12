@@ -45,7 +45,7 @@ const HeroSection = () => {
             Hire Me
           </Link>
           <a
-            href="./src/app/components/FernandezCruzMateo-CV.pdf"
+            href="./images/FernandezCruzMateo-CV.pdf"
             download="CV_Mateo_Fernandez.pdf"
             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
           >
