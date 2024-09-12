@@ -11,7 +11,7 @@ const TAB_DATA = [
       <div className="flex justify-center">
         <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
           <img 
-            src="https://skillicons.dev/icons?i=py,postgres,js,nodejs,react,c,cpp"
+            src="https://skillicons.dev/icons?i=py,postgres,js,nodejs,react,c,cpp&perline=3"
             alt="Skills Icons"
             className="w-auto h-16"
           />
