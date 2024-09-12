@@ -10,54 +10,54 @@ const projectsData = [
     title: "Bus RealTime GPS",
     description: "Get the real-time location of a bus in Buenos Aires.",
     image: "./images/projects/1.png",
-    tag: ["All", "Py"],
+    tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/RealTime-GPS-Colectivos",
-    previewUrl: "/",
+    previewUrl: "https://github.com/matefernandezcc/AFIP_CAE",
   },
   {
     id: 2,
-    title: "SaldoSube forAlexa",
+    title: "SaldoSube for Alexa",
     description: "Know the balance of your public tranport card through your Amazon Alexa device.",
     image: "./images/projects/2.png",
-    tag: ["All", "Py"],
+    tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/SaldoSube-for-Alexa",
-    previewUrl: "/",
+    previewUrl: "https://github.com/matefernandezcc/AFIP_CAE",
   },
   {
     id: 3,
     title: "CuandoSubo for Alexa",
     description: "Integration of CuandoSubo App for Amazon Alexa devices using triggerCMD",
     image: "./images/projects/3.png",
-    tag: ["All", "Py"],
+    tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/CuandoSubo-for-Alexa",
-    previewUrl: "/",
+    previewUrl: "https://github.com/matefernandezcc/AFIP_CAE",
   },
   {
     id: 4,
     title: "Congruence Equations Calculator",
     description: "Linear Congruence Equation solver",
     image: "./images/projects/4.png",
-    tag: ["All", "C"],
+    tag: ["All", "C and C++"],
     gitUrl: "https://github.com/matefernandezcc/congruence-Calculator",
-    previewUrl: "/",
+    previewUrl: "https://github.com/matefernandezcc/AFIP_CAE",
   },
   {
     id: 5,
     title: "Convolution for image compression",
     description: "Gaussian blur and some fft images transformations using convolution",
     image: "./images/projects/5.png",
-    tag: ["All", "Py"],
+    tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/Convolution",
-    previewUrl: "/",
+    previewUrl: "https://github.com/matefernandezcc/AFIP_CAE",
   },
   {
     id: 6,
     title: "AFIP 2 CAE",
     description: "Rename AFIP files with CAE",
     image: "./images/projects/6.png",
-    tag: ["All", "Py"],
+    tag: ["All", "Python"],
     gitUrl: "https://github.com/matefernandezcc/AFIP_CAE",
-    previewUrl: "/",
+    previewUrl: "https://github.com/matefernandezcc/AFIP_CAE",
   },
 ];
 
@@ -93,12 +93,12 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Python"
-          isSelected={tag === "Py"}
+          isSelected={tag === "Python"}
         />
         <ProjectTag
           onClick={handleTagChange}
           name="C and C++"
-          isSelected={tag === "C"}
+          isSelected={tag === "C and C++"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
