@@ -22,7 +22,7 @@ const achievementsList = [
   {
     metric: "Grad year",
     value: "3",
-    prefix: "rd",
+    postfix: "rd",
   },
   {
     metric: "Experience",
