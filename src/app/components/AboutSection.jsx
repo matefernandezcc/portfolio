@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
+        <li>Python</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
+        <li>Node.js</li>
         <li>React</li>
+        <li>C/C++</li>
       </ul>
     ),
   },
@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Fullstack</li>
+        <li>Universidad Tecnológica Nacional, Argentina</li>
       </ul>
     ),
   },
@@ -33,8 +33,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Soon...</li>
+        <li>Soon...</li>
       </ul>
     ),
   },
@@ -57,12 +57,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am a student of Information Systems Engineering with a passion for developing applications of all kinds, 
+          currently more interested in being a Data Analyst. I have experience with JavaScript, React, Python, Node.js, C, C++, Haskell, Prolog, PostgreSQL, HTML, CSS, and Git.
+          I am a fast learner and am always looking to expand my knowledge and skills.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

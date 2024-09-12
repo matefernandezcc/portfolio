@@ -7,56 +7,56 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Bus RealTime GPS",
+    description: "Get the real-time location of a bus in Buenos Aires.",
     image: "./images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Py"],
+    gitUrl: "https://github.com/matefernandezcc/RealTime-GPS-Colectivos",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "SaldoSube forAlexa",
+    description: "Know the balance of your public tranport card through your Amazon Alexa device.",
     image: "./images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Py"],
+    gitUrl: "https://github.com/matefernandezcc/SaldoSube-for-Alexa",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "CuandoSubo for Alexa",
+    description: "Integration of CuandoSubo App for Amazon Alexa devices using triggerCMD",
     image: "./images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Py"],
+    gitUrl: "https://github.com/matefernandezcc/CuandoSubo-for-Alexa",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Congruence Equations Calculator",
+    description: "Linear Congruence Equation solver",
     image: "./images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["All", "C"],
+    gitUrl: "https://github.com/matefernandezcc/congruence-Calculator",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Convolution for image compression",
+    description: "Gaussian blur and some fft images transformations using convolution",
     image: "./images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Py"],
+    gitUrl: "https://github.com/matefernandezcc/Convolution",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "AFIP 2 CAE",
+    description: "Rename AFIP files with CAE",
     image: "./images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Py"],
+    gitUrl: "https://github.com/matefernandezcc/AFIP_CAE",
     previewUrl: "/",
   },
 ];
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Python"
+          isSelected={tag === "Py"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="C and C++"
+          isSelected={tag === "C"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
