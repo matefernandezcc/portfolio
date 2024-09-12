@@ -13,7 +13,7 @@ const TAB_DATA = [
           <img 
             src="https://skillicons.dev/icons?i=linux,ubuntu,md,py,postgres,js,html,css,nodejs,react,git,github,c,cpp,gmail&perline=5"
             alt="Skills Icons"
-            className="w-auto h-16"
+            className="w-auto h-32"
           />
         </a>
       </div>
