@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <div className="text-center">
-        <ul className="list-disc pl-2 mb-4">
+        <ul className="none">
           <li>Universidad Tecnológica Nacional, Argentina 🇦🇷</li>
         </ul>
         <Image
