@@ -8,14 +8,15 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Python</li>
-        <li>PostgreSQL</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>React</li>
-        <li>C/C++</li>
-      </ul>
+      <div className="flex justify-center">
+        <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://skillicons.dev/icons?i=python,postgresql,js,nodejs,react,c,cpp"
+            alt="Skills Icons"
+            className="w-auto h-16"
+          />
+        </a>
+      </div>
     ),
   },
   {
