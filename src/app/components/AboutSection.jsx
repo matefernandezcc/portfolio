@@ -65,9 +65,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a student of Information Systems Engineering with a passion for developing applications of all kinds, 
-          currently more interested in being a Data Analyst. I have experience with JavaScript, React, Python, Node.js, C, C++, Haskell, Prolog, PostgreSQL, HTML, CSS, and Git.
-          I am a fast learner and am always looking to expand my knowledge and skills.
+            I am a student of Information Systems Engineering with a passion for developing applications of all kinds, currently more interested in being a Data Analyst.<br />
+            I have experience with JavaScript, React, Python, Node.js, C, C++, Haskell, Prolog, PostgreSQL, HTML, CSS, and Git. I am a fast learner and am always looking to expand my knowledge and skills.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
